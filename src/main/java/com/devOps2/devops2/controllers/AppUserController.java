@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.*;
 public class AppUserController {
 
 
-    @GetMapping("/api/v1/printhello")
+    @GetMapping("/printhello")
     public String printHello() {
         return "Hello World";
     }
